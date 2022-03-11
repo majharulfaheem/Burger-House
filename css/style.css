@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Alfa Slab One;
+}
+p{
+  font-family: Montserrat;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/********************************************************************************************************************************************headrer section code starts here**************************/
+.header{
+  width: 100%;
+  background-image: url("../images/hb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*menu code starts here*/
+.logo{
+ padding-top: 50px;
+}
+.up-text ul {
+  padding-top: 50px;
+  text-align: right;
+}
+.up-text ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 15px;
+  font-family: Bebas Neue;
+  color: #4C280F;
+  font-weight: 500;
+  font-size: 18px;
+}
+.header .bg-light{
+  background: transparent !important;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 3.5rem;
+  padding-right: 0px;
+  font-size: 23px;
+  font-family: Bebas Neue;
+  color: #4C280F;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+  font-size: 30px;
+}
+/*menu code ends here*/
+
+/*banner code starts here*/
+.banner{
+  width: 100%;
+  padding: 80px 0px 0px;;
+}
+.banner-pic{
+  width: 100%;
+}
+.banner-pic img{
+  width: 100%;
+  margin-top: -150px;
+  margin-bottom: -60px;
+}
+.banner-text{
+  width: 100%;
+}
+.banner-text p{
+  font-size: 17px;
+  color: #42200B;
+  padding: 8px;
+  border: 2px dashed #42200B;
+  display: inline;
+}
+.banner-text h1 {
+  font-size: 115px;
+  color: #42200B;
+  text-transform: uppercase;
+  line-height: 95px;
+  margin-top: 50px;
+}
+.banner-text span {
+  font-size: 87px;
+  margin-top: -29px;
+}
+/*banner code ends here*/
+/********************************************************************************************************************************************headrer section code ends here**************************/
+
+/********************************************************************************************************************************************popular section code starts here**************************/
+.popular{
+  width: 100%;
+  padding: 80px 0px;
+}
+.popular .in-pop{
+  margin-bottom: 30px;
+}
+/********************************************************************************************************************************************popular section code ends here**************************/
+
+/********************************************************************************************************************************************enjoy section code starts here**************************/
+.enjoy{
+  width: 100%;
+}
+.enjoy .feature{
+  text-align: center;
+}
+.feature img{
+  margin-bottom: 20px;
+}
+.feature h1{
+  color: #3d2514;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.feature p{
+  color: #3d2514;
+}
+.enjoy .inner-content{
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.inner-content h4{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: #3d2514;
+}
+.inner-content p{
+  color: #3d2514;
+  margin-bottom: 30px;
+}
+.inner-content .btn-danger{
+  padding: 6px 40px;
+  margin-right: 25px;
+  background: #bf2222;
+  border: #bf2222;
+  color: #ffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/********************************************************************************************************************************************enjoy section code ends here**************************/
+
+/********************************************************************************************************************************************event section code starts here**************************/
+.event{
+  width: 100%;
+  padding: 80px 0px;
+}
+.event img{
+  width: 400px;
+  height: 400px;
+}
+.event h5{
+  color: #3d2514;
+  font-weight: 400;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.event h1{
+  color: #3d2514;
+  text-transform: uppercase;
+  margin-top: -5px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.event p{
+  font-size: 12px;
+  line-height: 26px;
+}
+.owl-theme .owl-dots{
+  position: absolute;
+  top: 70%;
+}
+.owl-theme{
+  padding: 20px 20px;
+  box-shadow: 0px 3px 5px 0px grey;
+}
+/********************************************************************************************************************************************event section code ends here**************************/
+
+/********************************************************************************************************************************************booking section code starts here**************************/
+.booking{
+  width: 100%;
+  background-image: url("../images/table.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.booking .book{
+  padding: 80px 0px;
+  text-align: center;
+}
+.booking h5{
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #3d2514;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.book h1{
+  text-transform: uppercase;
+  color: #3d2514;
+  font-size: 45px;
+}
+.main-form{
+  width: 50%;
+  margin: 0px auto;
+  padding-bottom: 80px;
+}
+.booking .main-form .form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #333333;
+}
+.booking .btn-danger{
+  width: 100%;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.booking .btn-danger:hover{
+  background: #3d2514;
+  border: 1px solid #3d2514;
+}
+/********************************************************************************************************************************************booking section code ends here**************************/
+
+/********************************************************************************************************************************************footer section code starts here**************************/
+.footer{
+  width: 100%;
+  padding: 80px 0px 40px;;
+  margin-top: -80px;
+}
+.fot{
+  background-image: url("../images/foot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.footer .last-logo{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.footer .foot-text p{
+  color: #ffff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.location {
+  margin-top: 55px;
+}
+.location ul{
+  text-align: right;
+  margin-right: 50px;
+}
+.location .mail{
+  padding-right: 70px;
+}
+.location ul li{
+  display: inline;
+  list-style-type: none;
+  color: #ffff;
+  margin-left: 25px;
+}
+.footer .copy{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.copy p{
+  color: #ffff;
+  font-size: 12px;
+}
+.foot-icons ul{
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 100px;
+}
+.foot-icons li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 10px;
+}
+.foot-icons li img{
+  width: 20px;
+  height: 20px;
+}
+/********************************************************************************************************************************************footer section code ends here**************************/

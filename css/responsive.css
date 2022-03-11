@@ -1,0 +1,320 @@
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+.up-text ul{
+  text-align: left;
+  margin-left: -40px;
+  margin-top: -30px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: -40px;
+}
+.banner{
+  padding: 40px 0px 0px;
+}
+.banner-text p{
+  font-size: 12px;
+}
+.banner-text h1{
+  font-size: 63px;
+  line-height: 73px;
+  margin-top: 30px;
+}
+.banner-pic img {
+  width: 100%;
+  margin-top: -22px;
+  margin-bottom: -60px;
+  margin-bottom: -46px;
+  padding-right: 30px;
+}
+.banner-text span{
+  font-size: 63px;
+}
+.popular{
+  padding: 40px 0px;
+}
+.popular .img-fluid{
+  margin-bottom: 30px;
+}
+.popular .two{
+  width: 298px;
+}
+.popular .three{
+  width: 298px;
+}
+.enjoy .inner-content{
+  padding: 40px 0px;
+}
+.inner-content p{
+  font-size: 14px;
+}
+.event{
+  padding: 40px 0px;
+}
+.event img {
+  width: 200px !important;
+  height: 250px;
+  position: absolute;
+  left: 6%;
+}
+.event h1{
+  font-size: 14px;
+  line-height: 24px;
+}
+.event p{
+  font-size: 7px;
+  line-height: 17px;
+}
+.owl-theme .owl-dots{
+  top: 89%;
+  left: 40%;
+}
+.booking .book{
+  padding: 40px 0px;
+}
+.book h1{
+  font-size: 30px;
+}
+form{
+  width: 100%;
+}
+.main-form{
+  width: 85%;
+}
+.footer{
+  padding: 40px 0px 20px;
+}
+.footer .last-logo{
+  margin-left: 6px;
+}
+.foot-text{
+  text-align: left;
+}
+.footer .foot-text p{
+  font-size: 10px;
+  line-height: 20px;
+  margin-left: 12px;
+}
+.location ul li{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.location ul{
+  text-align: left;
+  margin-right: 0px;
+  margin-left: -30px;
+}
+.location{
+  margin-top: 28px;
+}
+.footer .copy {
+  margin-left: 14px;
+  margin-top: 35px;
+}
+.foot-icons ul {
+  text-align: center;
+  padding-right: 43px;
+  margin-top: 34px;
+}
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+.up-text ul {
+  padding-top: 50px;
+  text-align: left;
+  margin-left: -40px;
+  margin-top: -30px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+  margin-left: -40px;
+}
+.banner{
+  padding: 40px 0px 0px;
+}
+.banner-text p{
+  font-size: 19px;
+}
+.banner-text h1{
+  font-size: 93px;
+  line-height: 103px;
+}
+.banner-pic img {
+  width: 100%;
+  margin-top: -40px;
+  margin-bottom: -50px;
+  padding-right: 40px;
+}
+.popular{
+  padding: 40px 0px;
+}
+.popular .img-fluid{
+  margin-bottom: 30px;
+}
+.popular .two{
+  width: 457px;
+}
+.popular .three{
+  width: 457px;
+}
+.feature p{
+  font-size: 16px;
+}
+.enjoy .inner-content{
+  padding: 40px 0px;
+}
+.inner-content h4{
+  margin-right: 4px;
+}
+.inner-content p{
+  font-size: 18px;
+}
+.inner-content .btn-danger{
+  margin-right: 0px;
+}
+.event{
+  padding: 40px 0px;
+}
+.event img {
+  width: 300px !important;
+  height: 300px;
+  position: absolute;
+  left: 3%;
+}
+.event h1{
+  font-size: 22px;
+  line-height: 32px;
+}
+.owl-theme .owl-dots {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+.booking .book{
+  padding: 40px 0px;
+}
+.book h1{
+  font-size: 35px;
+  margin-top: 20px;
+}
+.main-form{
+  width: 75%;
+}
+.footer .foot-text p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 32px;
+}
+.location ul {
+  text-align: left;
+  margin-left: -26px;
+}
+.footer .copy {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.copy p{
+  font-size: 15px;
+}
+.foot-icons ul {
+  text-align: center;
+  padding-right: 60px;
+  margin-top: 33px;
+}
+.footer{
+  padding: 40px 0px 20px;
+}
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.up-text ul{
+ text-align: left;
+ margin-left: -40px;
+ margin-top: -30px;
+}
+.up-text ul li{
+  font-size: 18px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+  margin-left: -40px;
+}
+.banner-text p{
+  font-size: 22px;
+}
+.banner-text span{
+  font-size: 87px;
+  margin-left: -233px;
+}
+.banner-text {
+  width: 100%;
+  text-align: center;
+}
+.banner-pic img {
+  width: 100%;
+  margin-top: -72px;
+  margin-bottom: -82px;
+  padding-right: 50px;
+}
+.popular .img-fluid{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.in-pop{
+  margin-left: 50px;
+}
+.feature p{
+  font-size: 20px;
+}
+.inner-content h4{
+  font-size: 28px;
+  margin-right: 4px;
+}
+.inner-content p{
+  font-size: 22px;
+}
+.inner-content .btn-danger{
+  padding: 15px 40px;
+  font-size: 20px;
+  margin-right: 12px;
+}
+.owl-theme .owl-dots {
+  position: absolute;
+  top: 83%;
+  left: 8%;
+}
+.event p {
+  font-size: 12px;
+  line-height: 22px;
+}
+.main-form{
+  width: 70%;
+}
+.location ul{
+  text-align: left;
+}
+.footer .copy {
+  margin-left: 198px;
+  margin-top: 61px;
+}
+.copy p {
+  color: #ffff;
+  font-size: 14px;
+}
+.foot-icons ul {
+  text-align: center;
+  padding-right: 56px;
+  margin-top: 40px;
+}
+}
